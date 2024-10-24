@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  width: 250px;
+  min-height: 150px;
+  border-radius: 15px;
+  word-break: break-word;
+  position: relative;
+}
+
+.title {
+  max-height: 100px;
+  overflow: auto;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.description {
+  max-height: 200px;
+  overflow: auto;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.buttonOptions {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.button {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+}
+
+.low {
+  background-color: var(--shamrock);
+}
+
+.medium {
+  background-color: var(--koromiko);
+}
+
+.high {
+  background-color: var(--carnation);
+}
